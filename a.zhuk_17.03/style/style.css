@@ -90,8 +90,8 @@ h5  {
 }
 
 .banner-content {
-		padding: 135px 30px 0;
-		color: #fff;
+	padding: 135px 30px 0;
+	color: #fff;
 }
 
 .banner-title {
@@ -149,11 +149,12 @@ h5  {
 }
 
 .product-item + .product-item {
-	margin-left : 40px;
+	margin-left: 40px;
 }
 
 .product-discount {
 	position: absolute;
+	top: 26px;
 	left: -4px;
 	font-size: 16px;
 	color: #fff;
@@ -198,7 +199,7 @@ h5  {
 	padding-top: 60px;
 }
 
-.footer > .container {
+.footer-categories {
 	border-bottom: 1px solid #e8e8e8;
 	padding-bottom: 60px;
 }
@@ -218,8 +219,7 @@ h5  {
 }
 
 .footer-contacts {
-		display: block;
-		margin-bottom: 40px;
+	margin-bottom: 40px;
 }
 
 .footer-contact {
@@ -238,7 +238,7 @@ h5  {
 	font-size: 0px;
 }
 
-.social-item + .social-item {
+.social-item  + .social-item {
 	margin-left: 22px;
 }
 
@@ -278,7 +278,7 @@ h5  {
 	line-height: 30px;
 }
 
-.copyright-content .container{
+.footer-outer {
 	font-size: 13px;
 	line-height: 20px;
 	color: #a6a6a6;
@@ -295,9 +295,9 @@ h5  {
 }
 
 .payment-item {
-	display: inline;
+	display: inline-block;
 }
 
-.payment-item + .payment-item {
+.payment-item  + .payment-item {
 	margin-left: 20px;
 }
